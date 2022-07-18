@@ -3,7 +3,7 @@ About cloup
 
 Home: https://github.com/janLuke/cloup
 
-Package license: MIT
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cloup-feedstock/blob/main/LICENSE.txt)
 
