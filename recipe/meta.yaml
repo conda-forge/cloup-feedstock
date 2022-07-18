@@ -22,8 +22,7 @@ requirements:
     - setuptools-scm
   run:
     - python >=3.6
-    - click >=7.1,<9.0
-    - dataclasses
+    - click >=8.0,<9.0
     - typing-extensions
 
 test:
@@ -38,7 +37,7 @@ test:
 about:
   home: https://github.com/janLuke/cloup
   summary: Option groups and subcommand help sections for pallets/click
-  license: MIT
+  license: BSD-3-Clause
   license_file: LICENSE
 
 extra:
