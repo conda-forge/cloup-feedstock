@@ -1,5 +1,5 @@
 {% set name = "cloup" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cloup-{{ version }}.tar.gz
-  sha256: 8907e9cf6ae5ed8dcf2481b668ef82bb5921c7683af177cec21911a0436ab138
+  sha256: e1082b03450c201cf7cdd47115eb4509d3b7fe6bd5aebca1e0845f67fec4ae73
 
 build:
   number: 0
