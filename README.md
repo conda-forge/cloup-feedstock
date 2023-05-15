@@ -1,11 +1,11 @@
-About cloup
-===========
+About cloup-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cloup-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/janLuke/cloup
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cloup-feedstock/blob/main/LICENSE.txt)
 
 Summary: Option groups and subcommand help sections for pallets/click
 
