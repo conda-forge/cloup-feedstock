@@ -1,5 +1,5 @@
 {% set name = "cloup" %}
-{% set version = "3.0.8" %}
+{% set version = "3.0.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cloup-{{ version }}.tar.gz
-  sha256: f91c080a725196ddf74feabd6250266f466e97fc16dfe21a762cf6bc6beb3ecb
+  sha256: 519f524d3c64040e49a0866b5fc0bfd6af3eac0d3d6a4b2b50b33ab0247db2d7
 
 build:
   number: 0
@@ -22,6 +22,7 @@ requirements:
     - pip
     - setuptools-scm
   run:
+    - typing_extensions
     - python >={{ python_min }}
     - click >=8.0,<9.0
     - typing-extensions
