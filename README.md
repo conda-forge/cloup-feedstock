@@ -7,7 +7,7 @@ Home: https://github.com/janLuke/cloup
 
 Package license: BSD-3-Clause
 
-Summary: Option groups and subcommand help sections for pallets/click
+Summary: Adds features to Click: option groups, constraints, subcommand sections and help themes.
 
 Current build status
 ====================
