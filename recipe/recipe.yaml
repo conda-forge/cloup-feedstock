@@ -1,0 +1,47 @@
+schema_version: 1
+
+context:
+  version: "4.0.0"
+
+package:
+  name: cloup
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/c/cloup/cloup-${{ version }}.tar.gz
+  sha256: 83b0870ee863bcc85129e40e1b208bcfdebe4cd2142e9ce1d0daf7d276cab038
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - hatchling
+    - hatch-vcs
+    - pip
+  run:
+    - python >=${{ python_min }}
+    - click >=8.5.0,<9.0
+    - typing_extensions
+
+tests:
+  - python:
+      imports:
+        - cloup
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+
+about:
+  summary: "Adds features to Click: option groups, constraints, subcommand sections and help themes."
+  license: BSD-3-Clause
+  license_file: LICENSE
+  homepage: https://github.com/janLuke/cloup
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
